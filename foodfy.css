@@ -35,13 +35,15 @@ header .header-menu {
     margin-left: 122px;
 }
 
-header .header-menu p {
+header .header-menu a {
     font-size: 16px;
     color: var(--color-black);
     line-height: 19px;
 
     font-weight: 400;
     margin-right: 30px;
+
+    text-decoration: none;
 }
 
 section {
@@ -79,7 +81,12 @@ section .section-text {
 
 section img {
     width: 216px;
-   
+}
+
+div h2 {
+    font-size: 24px;
+    color: var(--color-black);
+    line-height: 28px;
 }
 
 /* --- cards ---- */
@@ -124,6 +131,7 @@ footer {
     background: #EEEEEE;
 
     margin-top: 50px;
+
 }
 
 footer p {
@@ -131,4 +139,32 @@ footer p {
     font-size: 14px;
     line-height: 16px;
     color: #999999;
+}
+
+/* ---- ABOUT SECTION ---- */
+.about {
+    margin-top: 14px;
+}
+
+.about p,
+.how-it-started p,
+.our-recipes p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    font-weight: 400;
+
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--color-black);
+    font-weight: bold;
 }
